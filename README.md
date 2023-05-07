@@ -18,7 +18,7 @@ Alpine Linux Setup
 * `cd alpine-linux-setup`
 * `git checkout headless-noroot`
 * `./setup.sh`
-* type cheno password
+* type noroot password while installing ...
 * `cd ..`
 * `rm -rf alpine-linux-setup`
 * `reboot`
@@ -40,5 +40,6 @@ Alpine Linux Setup
 eval `ssh-agent -s`
 ssh-add
 ````
-## YouTube Video
+
+## YouTube Video where I was based:
 * https://youtu.be/X_T-cKum8dc
