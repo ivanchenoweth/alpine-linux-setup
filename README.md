@@ -4,16 +4,19 @@ Alpine Linux Setup
 # Alpine Linux
 ## Base Installation
 * download iso from internet
+
+[https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/](https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/)
+
 * create vm, boot
 * run `setup-alpine` script
 * `reboot`
 
-## Auto Personalization
+## Auto Personalization (web apps)
 * login as `root`
 * `apk add git`
 * `git clone https://github.com/ivanchenoweth/alpine-linux-setup`
 * `cd alpine-linux-setup`
-* `git checkout headless`
+* `git checkout headless-noroot`
 * `./setup.sh`
 * type cheno password
 * `cd ..`
@@ -28,13 +31,10 @@ Alpine Linux Setup
 * `cd dev-containers`
 * `./code-server.sh`
 
-## Manual Personalization for branches w/cheno noroot user 
-* login as `cheno`
+## Manual Personalization for branches w/noroot rootless user 
+* login as `noroot`
 * `ssh-keygen`
 
-## Manual Personalization for branches w/ibuetler noroot  user
-* login as `ibuetler`
-* `ssh-keygen`
 
 ````
 eval `ssh-agent -s`
