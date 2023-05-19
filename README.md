@@ -7,6 +7,10 @@ Alpine Linux Setup
 
 [https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/](https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/)
 
+## Download the next file:
+
+alpine-virt-3.15.0-x86_64.iso  
+
 * Create a linux vm, add the ISO and boot
 * type root without password to go to the linux live
 * execute `setup-alpine` script to install, typing steps properly
