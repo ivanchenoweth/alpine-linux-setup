@@ -33,6 +33,7 @@ alpine-virt-3.15.0-x86_64.iso
 * `cd alpine-linux-setup`
 
 ## Execute code-server container
+* `git checkout headless-noroot`
 * `cd dev-containers`
 * `./code-server.sh`
 
