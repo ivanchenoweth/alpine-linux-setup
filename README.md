@@ -35,7 +35,7 @@ alpine-virt-3.15.0-x86_64.iso
 ## Execute code-server container
 * `git checkout headless-noroot`
 * `cd dev-containers`
-* `./code-server.sh`
+* `./run-code-server.sh`
 
 ## Manual Personalization for branches w/noroot rootless user 
 * login as `noroot`
