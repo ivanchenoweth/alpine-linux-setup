@@ -9,7 +9,7 @@ Alpine Linux Setup
 
 ## Download the next file:
 
-alpine-virt-3.15.0-x86_64.iso  
+alpine-virt-3.22.1-x86_64.iso  
 
 * Create a linux vm, add the ISO and boot
 * type root without password to go to the linux live
